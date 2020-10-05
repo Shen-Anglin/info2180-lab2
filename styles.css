@@ -1,0 +1,54 @@
+.container {
+	display: grid;
+	grid-template-areas:
+	'top top top top top top'
+    'main main main main main right'
+	'footer footer footer footer footer footer'
+	
+}
+.top{grid-area: top;}
+.main{grid-area: main;}
+.sidebar{grid-area: right;}
+.footer{grid-area: footer;}
+
+body {
+	font-size: 18px;
+	color: #2D3748;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+
+}
+header {
+	background-color: #63B3ED;
+	color: #FFFFFF;
+	
+}
+h1{
+	display: flex;
+	flex-wrap: center;
+	font-size: 36px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+	color: #48BB78;
+	font-size: 32px;
+}
+
+h4{
+	color: #718096;
+}
+
+footer{
+	background-color: #2C5282;
+	color: #FFFFFF
+ 
+}
+.about{
+	background-color: #E2E8F0;
+	padding: 10px;
+}
+
+.links {
+	color: #4299E1;
+}
+
